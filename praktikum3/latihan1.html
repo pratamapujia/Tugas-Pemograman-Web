@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan1</title>
+</head>
+<SCRIPT language="javaScript">
+	
+	var nilai = prompt("Nilai (0-100) : " , 0);
+	var hasil = "";
+	if (nilai <= 40)
+		hasil = "E";
+	else if (nilai <= 55)
+		hasil = "D";
+	else if (nilai <= 60)
+		hasil = "C";
+	else if (nilai <= 65)
+		hasil = "BC";
+	else if (nilai <= 70)
+		hasil = "B";
+	else if (nilai <= 80)
+		hasil = "AB";
+	else if (nilai <= 100)
+		hasil = "A";
+	else
+		hasil = "NILAI TIDAK SESUAI";
+	document.write("Hasil : " + hasil);
+</SCRIPT>
+
+</body>
+</html>

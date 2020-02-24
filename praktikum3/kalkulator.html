@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulaator Sederhana</title>
+</head>
+<SCRIPT language="JavaScript">
+	<!--
+	function pesan(){
+		alert("Selamat Datang")
+		alert("Mohon isi dengan angka saja !!!")
+	}
+	function tambah(){
+		var myform = document.form1;
+		var x = eval(myform.x.value);
+		var y = eval(myform.y.value);
+		var z = x + y;
+		myform.hasil.value = z;
+		//myform.x.value = "";
+		//myform.y.value = "";
+	}
+	function kurang(){
+		var myform = document.form1;
+		var x = eval(myform.x.value);
+		var y = eval(myform.y.value);
+		var z = x - y;
+		myform.hasil.value = z;
+		//myform.x.value = "";
+		//myform.y.value = "";
+	}
+	function kali(){
+		var myform = document.form1;
+		var x = eval(myform.x.value);
+		var y = eval(myform.y.value);
+		var z = x * y;
+		myform.hasil.value = z;
+		//myform.x.value = "";
+		//myform.y.value = "";
+	}
+	function bagi(){
+		var myform = document.form1;
+		var x = eval(myform.x.value);
+		var y = eval(myform.y.value);
+		var z = x / y;
+		myform.hasil.value = z;
+		//myform.x.value = "";
+		//myform.y.value = "";
+	}
+	function resetform(){
+		document.form1.reset();
+	}
+	//-->
+</SCRIPT>
+<body onload="pesan()">
+	<div>
+		<form name="form1" action="#">
+			<p>bil 1 <input type="text" name="x"></p>
+			<p>bil 2 <input type="text" name="y"></p>
+			<P>hasil <input type="text" name="hasil" disabled="true"></P>			
+			<input type="button" value="+" onclick="tambah()">
+			<input type="button" value="-" onclick="kurang()">
+			<input type="button" value="x" onclick="kali()">
+			<input type="button" value="/" onclick="bagi()">
+			<input type="button" value="CLEAR" onclick="resetform()">
+		</form>
+</body>
+</html>
