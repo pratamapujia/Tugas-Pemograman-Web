@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas3</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+		.kotak{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			}
+		div{
+			padding: 20px;
+			margin: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#tampilkan").click(function(){
+			$("#kotak1").fadeIn();
+				});
+		$("#sembunyikan").click(function(){
+			$("#kotak1").hide();
+				});
+		$("#sembunyikan2").click(function(){
+			$("#kotak1").fadeTo("slow", 0.3);
+				});
+	});
+	</script>
+</head>
+<body>
+	<div class="kotak" id="kotak1"></div>
+	<input id="sembunyikan" type="button"  value="fade out">
+	<input id="tampilkan" type="button"  value="fade in">
+	<input id="sembunyikan2" type="button"  value="fade To 0.3">
+</body>
+</html>
