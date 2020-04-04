@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Kontak</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="h1">
+		<h3 class="h3-kontak">INPUT DATA KONTAK</h3>
+		<br>
+		<form action="simpan-kontak.php" method="post">
+			<table class="table2">
+				<tr>
+					<td>Nama</td>
+					<td>: <input type="text" name="nama"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>: <input type="radio" name="jenis_kelamin" value="Laki-Laki"> Laki-Laki <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>: <input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td>: <input type="text" name="alamat"></td>
+				</tr>
+				<tr>
+					<td>Kota</td>
+					<td>: <input type="text" name="kota"></td>
+				</tr>
+				<tr>
+					<td>Pesan</td>
+					<td>: <input type="text" name="pesan"></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" name="submit" value="Simpan">
+		</form>
+		<br>
+		<p><a href="index.php" class="btn2">Lihat Data Kontak</a></p>
+	</header>
+</body>
+</html>
